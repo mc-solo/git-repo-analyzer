@@ -1,0 +1,28 @@
+{
+  "name": "git-repo-analyzer",
+  "version": "1.0.0",
+  "description": "a basic CLI to analyze GitHub repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "git",
+    "repo",
+    "repo-analyzer"
+  ],
+  "author": "Wondwosen Asegid Dereje",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mc-solo/git-repo-analyzer/issues"
+  },
+  "homepage": "https://github.com/mc-solo/git-repo-analyzer#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
